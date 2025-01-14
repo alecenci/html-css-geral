@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.base-geral {
+    display: flex;
+    width: 1366px;
+    height: 667px;
+    background-color: black;
+}
+
+.header-perfil {
+    width: 410px;
+    height: 60px;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.imagem-redonda-perfil {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imagem-redonda-conversa {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.see-more {
+    width: 3px;
+    height: 13px;
+}
+
+.bloco-conversas{
+    width: 410px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.bloco-divisor{
+    width: 410px;
+    height: 1px;
+    background-color: #ededed;
+}
+
+.container-conversas{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-contato {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #656565;         
+}
+
+.mensagem {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #888;
+
+}
+
+.foto-conversa {
+    display: flex;
+    align-items: center;
+
+}
+
+.contato-conversa {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.hora{
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    color: #888;
+
+}
+
+.bloco-final {
+    width: 410px;
+    background-color: white;
+    flex-grow: 1;
+}
